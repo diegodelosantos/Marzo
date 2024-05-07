@@ -1,0 +1,18 @@
+<table class="table table-striped table-bordered">
+    <thead>
+      <tr>
+        @for(titulo of datos[0]; track $index) {
+        <th> {{ titulo }} </th>
+        }
+      </tr>
+    </thead>
+    <tbody>
+      @for(fila of datos.slice(1); track fila) {
+      <tr>
+        @for(celda of fila;track celda) {
+        <td>{{ celda }}</td>
+        }
+      </tr>
+      }
+    </tbody>
+  </table>

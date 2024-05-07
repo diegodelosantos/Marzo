@@ -1,0 +1,148 @@
+{
+    "Centros": [
+      {
+        "ID": 1,
+        "Nombre":"Dr. Carlos Martínez",
+        "Direccion": "Calle Juan Carlos I, s/n",
+        "Provincia": "Ávila",
+        "Telefono": "+34 920 35 80 00",
+        "HorasDisponibles":[{"Hora":"08:00","idCliente":""}, {"Hora":"08:30","idCliente":""},  {"Hora":"09:00","idCliente":""},  {"Hora":"09:30","idCliente":""},  {"Hora":"10:00","idCliente":""}, {"Hora":"10:30","idCliente":""}, {"Hora":"11:00","idCliente":""}, {"Hora":"11:30","idCliente":""}, {"Hora":"12:00","idCliente":""}, {"Hora":"12:30","idCliente":""}, {"Hora":"13:00","idCliente":""},{"Hora":"13:30","idCliente":""}, {"Hora":"14:00","idCliente":""}, {"Hora":"16:00","idCliente":""}, {"Hora":"16:30","idCliente":""}, {"Hora":"17:00","idCliente":""}, {"Hora":"17:30","idCliente":""}, {"Hora":"18:00","idCliente":""}, {"Hora":"18:30","idCliente":""}, {"Hora":"19:00","idCliente":""}]
+      },
+      {
+        "ID": 2,
+        "Nombre":"Dra. Ana López",
+        "Direccion": "Avenida Islas Baleares, s/n",
+        "Provincia": "Burgos",
+        "Telefono": "+34 947 28 90 00",
+        "HorasDisponibles":[{"Hora":"08:00","idCliente":""}, {"Hora":"08:30","idCliente":""},  {"Hora":"09:00","idCliente":""},  {"Hora":"09:30","idCliente":""},  {"Hora":"10:00","idCliente":""}, {"Hora":"10:30","idCliente":""}, {"Hora":"11:00","idCliente":""}, {"Hora":"11:30","idCliente":""}, {"Hora":"12:00","idCliente":""}, {"Hora":"12:30","idCliente":""}, {"Hora":"13:00","idCliente":""},{"Hora":"13:30","idCliente":""}, {"Hora":"14:00","idCliente":""}, {"Hora":"16:00","idCliente":""}, {"Hora":"16:30","idCliente":""}, {"Hora":"17:00","idCliente":""}, {"Hora":"17:30","idCliente":""}, {"Hora":"18:00","idCliente":""}, {"Hora":"18:30","idCliente":""}, {"Hora":"19:00","idCliente":""}]
+      },
+      {
+        "ID": 3,
+        "Nombre":"Dr. Javier Rodríguez",
+        "Direccion": "Altos de Nava, s/n",
+        "Provincia": "León",
+        "Telefono": "+34 987 23 70 00",
+        "HorasDisponibles":[{"Hora":"08:00","idCliente":""}, {"Hora":"08:30","idCliente":""},  {"Hora":"09:00","idCliente":""},  {"Hora":"09:30","idCliente":""},  {"Hora":"10:00","idCliente":""}, {"Hora":"10:30","idCliente":""}, {"Hora":"11:00","idCliente":""}, {"Hora":"11:30","idCliente":""}, {"Hora":"12:00","idCliente":""}, {"Hora":"12:30","idCliente":""}, {"Hora":"13:00","idCliente":""},{"Hora":"13:30","idCliente":""}, {"Hora":"14:00","idCliente":""}, {"Hora":"16:00","idCliente":""}, {"Hora":"16:30","idCliente":""}, {"Hora":"17:00","idCliente":""}, {"Hora":"17:30","idCliente":""}, {"Hora":"18:00","idCliente":""}, {"Hora":"18:30","idCliente":""}, {"Hora":"19:00","idCliente":""}]
+      },
+      {
+        "ID": 4,
+        "Nombre":"Dra. Laura Gómez",
+        "Direccion": "Paseo de la Julia, s/n",
+        "Provincia": "Palencia",
+        "Telefono": "+34 979 74 00 00",
+        "HorasDisponibles":[{"Hora":"08:00","idCliente":""}, {"Hora":"08:30","idCliente":""},  {"Hora":"09:00","idCliente":""},  {"Hora":"09:30","idCliente":""},  {"Hora":"10:00","idCliente":""}, {"Hora":"10:30","idCliente":""}, {"Hora":"11:00","idCliente":""}, {"Hora":"11:30","idCliente":""}, {"Hora":"12:00","idCliente":""}, {"Hora":"12:30","idCliente":""}, {"Hora":"13:00","idCliente":""},{"Hora":"13:30","idCliente":""}, {"Hora":"14:00","idCliente":""}, {"Hora":"16:00","idCliente":""}, {"Hora":"16:30","idCliente":""}, {"Hora":"17:00","idCliente":""}, {"Hora":"17:30","idCliente":""}, {"Hora":"18:00","idCliente":""}, {"Hora":"18:30","idCliente":""}, {"Hora":"19:00","idCliente":""}]     
+      },
+      {
+        "ID": 5,
+        "Nombre":"Dr. Manuel Fernández",
+        "Direccion": "Paseo de San Vicente, 58-182",
+        "Provincia": "Salamanca",
+        "Telefono": "+34 923 29 10 00",
+        "HorasDisponibles":[{"Hora":"08:00","idCliente":""}, {"Hora":"08:30","idCliente":""},  {"Hora":"09:00","idCliente":""},  {"Hora":"09:30","idCliente":""},  {"Hora":"10:00","idCliente":""}, {"Hora":"10:30","idCliente":""}, {"Hora":"11:00","idCliente":""}, {"Hora":"11:30","idCliente":""}, {"Hora":"12:00","idCliente":""}, {"Hora":"12:30","idCliente":""}, {"Hora":"13:00","idCliente":""},{"Hora":"13:30","idCliente":""}, {"Hora":"14:00","idCliente":""}, {"Hora":"16:00","idCliente":""}, {"Hora":"16:30","idCliente":""}, {"Hora":"17:00","idCliente":""}, {"Hora":"17:30","idCliente":""}, {"Hora":"18:00","idCliente":""}, {"Hora":"18:30","idCliente":""}, {"Hora":"19:00","idCliente":""}]
+      },
+      {
+        "ID": 6,
+        "Nombre":"Dra. Patricia Pérez",
+        "Direccion": "Avenida de Fernández Ladreda, s/n",
+        "Provincia": "Segovia",
+        "Telefono": "+34 921 41 00 00",
+        "HorasDisponibles":[{"Hora":"08:00","idCliente":""}, {"Hora":"08:30","idCliente":""},  {"Hora":"09:00","idCliente":""},  {"Hora":"09:30","idCliente":""},  {"Hora":"10:00","idCliente":""}, {"Hora":"10:30","idCliente":""}, {"Hora":"11:00","idCliente":""}, {"Hora":"11:30","idCliente":""}, {"Hora":"12:00","idCliente":""}, {"Hora":"12:30","idCliente":""}, {"Hora":"13:00","idCliente":""},{"Hora":"13:30","idCliente":""}, {"Hora":"14:00","idCliente":""}, {"Hora":"16:00","idCliente":""}, {"Hora":"16:30","idCliente":""}, {"Hora":"17:00","idCliente":""}, {"Hora":"17:30","idCliente":""}, {"Hora":"18:00","idCliente":""}, {"Hora":"18:30","idCliente":""}, {"Hora":"19:00","idCliente":""}]
+      },
+      {
+        "ID": 7,
+        "Nombre":"Dr. Alejandro Díaz",
+        "Direccion": "Calle Clínica, s/n",
+        "Provincia": "Soria",
+        "Telefono": "+34 975 22 00 00",
+        "HorasDisponibles":[{"Hora":"08:00","idCliente":""}, {"Hora":"08:30","idCliente":""},  {"Hora":"09:00","idCliente":""},  {"Hora":"09:30","idCliente":""},  {"Hora":"10:00","idCliente":""}, {"Hora":"10:30","idCliente":""}, {"Hora":"11:00","idCliente":""}, {"Hora":"11:30","idCliente":""}, {"Hora":"12:00","idCliente":""}, {"Hora":"12:30","idCliente":""}, {"Hora":"13:00","idCliente":""},{"Hora":"13:30","idCliente":""}, {"Hora":"14:00","idCliente":""}, {"Hora":"16:00","idCliente":""}, {"Hora":"16:30","idCliente":""}, {"Hora":"17:00","idCliente":""}, {"Hora":"17:30","idCliente":""}, {"Hora":"18:00","idCliente":""}, {"Hora":"18:30","idCliente":""}, {"Hora":"19:00","idCliente":""}]
+      },
+      {
+        "ID": 8,
+        "Nombre":"Dra. María García",
+        "Direccion": "Ramón y Cajal, 3",
+        "Provincia": "Valladolid",
+        "Telefono": "+34 983 42 30 00",
+        "HorasDisponibles":[{"Hora":"08:00","idCliente":""}, {"Hora":"08:30","idCliente":""},  {"Hora":"09:00","idCliente":""},  {"Hora":"09:30","idCliente":""},  {"Hora":"10:00","idCliente":""}, {"Hora":"10:30","idCliente":""}, {"Hora":"11:00","idCliente":""}, {"Hora":"11:30","idCliente":""}, {"Hora":"12:00","idCliente":""}, {"Hora":"12:30","idCliente":""}, {"Hora":"13:00","idCliente":""},{"Hora":"13:30","idCliente":""}, {"Hora":"14:00","idCliente":""}, {"Hora":"16:00","idCliente":""}, {"Hora":"16:30","idCliente":""}, {"Hora":"17:00","idCliente":""}, {"Hora":"17:30","idCliente":""}, {"Hora":"18:00","idCliente":""}, {"Hora":"18:30","idCliente":""}, {"Hora":"19:00","idCliente":""}]
+      },
+      {
+        "ID": 9,
+        "Nombre":"Dr. Pablo Ruiz",
+        "Direccion": "Avenida Requejo, 35",
+        "Provincia": "Zamora",
+        "Telefono": "+34 980 54 00 00",
+        "HorasDisponibles":[{"Hora":"08:00","idCliente":""}, {"Hora":"08:30","idCliente":""},  {"Hora":"09:00","idCliente":""},  {"Hora":"09:30","idCliente":""},  {"Hora":"10:00","idCliente":""}, {"Hora":"10:30","idCliente":""}, {"Hora":"11:00","idCliente":""}, {"Hora":"11:30","idCliente":""}, {"Hora":"12:00","idCliente":""}, {"Hora":"12:30","idCliente":""}, {"Hora":"13:00","idCliente":""},{"Hora":"13:30","idCliente":""}, {"Hora":"14:00","idCliente":""}, {"Hora":"16:00","idCliente":""}, {"Hora":"16:30","idCliente":""}, {"Hora":"17:00","idCliente":""}, {"Hora":"17:30","idCliente":""}, {"Hora":"18:00","idCliente":""}, {"Hora":"18:30","idCliente":""}, {"Hora":"19:00","idCliente":""}]
+      },
+      {
+        "ID": 10,
+        "Nombre":"Dra. Elena González",
+        "Direccion": "Calle Juan Carlos II, 23",
+        "Provincia": "Ávila",
+        "Telefono": "+34 920 35 80 55",
+        "HorasDisponibles":[{"Hora":"08:00","idCliente":""}, {"Hora":"08:30","idCliente":""},  {"Hora":"09:00","idCliente":""},  {"Hora":"09:30","idCliente":""},  {"Hora":"10:00","idCliente":""}, {"Hora":"10:30","idCliente":""}, {"Hora":"11:00","idCliente":""}, {"Hora":"11:30","idCliente":""}, {"Hora":"12:00","idCliente":""}, {"Hora":"12:30","idCliente":""}, {"Hora":"13:00","idCliente":""},{"Hora":"13:30","idCliente":""}, {"Hora":"14:00","idCliente":""}, {"Hora":"16:00","idCliente":""}, {"Hora":"16:30","idCliente":""}, {"Hora":"17:00","idCliente":""}, {"Hora":"17:30","idCliente":""}, {"Hora":"18:00","idCliente":""}, {"Hora":"18:30","idCliente":""}, {"Hora":"19:00","idCliente":""}]
+      },
+      {
+        "ID": 11,
+        "Nombre":"Dr. Sergio Herrera",
+        "Direccion": "Avenida Islas Canarias, 5",
+        "Provincia": "Burgos",
+        "Telefono": "+34 947 28 90 65",
+        "HorasDisponibles":[{"Hora":"08:00","idCliente":""}, {"Hora":"08:30","idCliente":""},  {"Hora":"09:00","idCliente":""},  {"Hora":"09:30","idCliente":""},  {"Hora":"10:00","idCliente":""}, {"Hora":"10:30","idCliente":""}, {"Hora":"11:00","idCliente":""}, {"Hora":"11:30","idCliente":""}, {"Hora":"12:00","idCliente":""}, {"Hora":"12:30","idCliente":""}, {"Hora":"13:00","idCliente":""},{"Hora":"13:30","idCliente":""}, {"Hora":"14:00","idCliente":""}, {"Hora":"16:00","idCliente":""}, {"Hora":"16:30","idCliente":""}, {"Hora":"17:00","idCliente":""}, {"Hora":"17:30","idCliente":""}, {"Hora":"18:00","idCliente":""}, {"Hora":"18:30","idCliente":""}, {"Hora":"19:00","idCliente":""}]
+      },
+      {
+        "ID": 12,
+        "Nombre":"Dra. Clara Santos",
+        "Direccion": "Avenida Madrid, 35",
+        "Provincia": "León",
+        "Telefono": "+34 987 23 70 08",
+        "HorasDisponibles":[{"Hora":"08:00","idCliente":""}, {"Hora":"08:30","idCliente":""},  {"Hora":"09:00","idCliente":""},  {"Hora":"09:30","idCliente":""},  {"Hora":"10:00","idCliente":""}, {"Hora":"10:30","idCliente":""}, {"Hora":"11:00","idCliente":""}, {"Hora":"11:30","idCliente":""}, {"Hora":"12:00","idCliente":""}, {"Hora":"12:30","idCliente":""}, {"Hora":"13:00","idCliente":""},{"Hora":"13:30","idCliente":""}, {"Hora":"14:00","idCliente":""}, {"Hora":"16:00","idCliente":""}, {"Hora":"16:30","idCliente":""}, {"Hora":"17:00","idCliente":""}, {"Hora":"17:30","idCliente":""}, {"Hora":"18:00","idCliente":""}, {"Hora":"18:30","idCliente":""}, {"Hora":"19:00","idCliente":""}]
+      },
+      {
+        "ID": 13,
+        "Nombre":"Dr. Jorge Torres",
+        "Direccion": "Paseo de armas, 3",
+        "Provincia": "Palencia",
+        "Telefono": "+34 979 74 80 90",
+        "HorasDisponibles":[{"Hora":"08:00","idCliente":""}, {"Hora":"08:30","idCliente":""},  {"Hora":"09:00","idCliente":""},  {"Hora":"09:30","idCliente":""},  {"Hora":"10:00","idCliente":""}, {"Hora":"10:30","idCliente":""}, {"Hora":"11:00","idCliente":""}, {"Hora":"11:30","idCliente":""}, {"Hora":"12:00","idCliente":""}, {"Hora":"12:30","idCliente":""}, {"Hora":"13:00","idCliente":""},{"Hora":"13:30","idCliente":""}, {"Hora":"14:00","idCliente":""}, {"Hora":"16:00","idCliente":""}, {"Hora":"16:30","idCliente":""}, {"Hora":"17:00","idCliente":""}, {"Hora":"17:30","idCliente":""}, {"Hora":"18:00","idCliente":""}, {"Hora":"18:30","idCliente":""}, {"Hora":"19:00","idCliente":""}]
+      },
+      {
+        "ID": 14,
+        "Nombre":"Dra. Isabel Ramirez",
+        "Direccion": "Paseo de San Marino, 582",
+        "Provincia": "Salamanca",
+        "Telefono": "+34 923 29 10 36",
+        "HorasDisponibles":[{"Hora":"08:00","idCliente":""}, {"Hora":"08:30","idCliente":""},  {"Hora":"09:00","idCliente":""},  {"Hora":"09:30","idCliente":""},  {"Hora":"10:00","idCliente":""}, {"Hora":"10:30","idCliente":""}, {"Hora":"11:00","idCliente":""}, {"Hora":"11:30","idCliente":""}, {"Hora":"12:00","idCliente":""}, {"Hora":"12:30","idCliente":""}, {"Hora":"13:00","idCliente":""},{"Hora":"13:30","idCliente":""}, {"Hora":"14:00","idCliente":""}, {"Hora":"16:00","idCliente":""}, {"Hora":"16:30","idCliente":""}, {"Hora":"17:00","idCliente":""}, {"Hora":"17:30","idCliente":""}, {"Hora":"18:00","idCliente":""}, {"Hora":"18:30","idCliente":""}, {"Hora":"19:00","idCliente":""}]
+      },
+      {
+        "ID": 15,
+        "Nombre":"Dr. Daniel Castro",
+        "Direccion": "Avenida de Juan, 8",
+        "Provincia": "Segovia",
+        "Telefono": "+34 921 46 00 00",
+        "HorasDisponibles":[{"Hora":"08:00","idCliente":""}, {"Hora":"08:30","idCliente":""},  {"Hora":"09:00","idCliente":""},  {"Hora":"09:30","idCliente":""},  {"Hora":"10:00","idCliente":""}, {"Hora":"10:30","idCliente":""}, {"Hora":"11:00","idCliente":""}, {"Hora":"11:30","idCliente":""}, {"Hora":"12:00","idCliente":""}, {"Hora":"12:30","idCliente":""}, {"Hora":"13:00","idCliente":""},{"Hora":"13:30","idCliente":""}, {"Hora":"14:00","idCliente":""}, {"Hora":"16:00","idCliente":""}, {"Hora":"16:30","idCliente":""}, {"Hora":"17:00","idCliente":""}, {"Hora":"17:30","idCliente":""}, {"Hora":"18:00","idCliente":""}, {"Hora":"18:30","idCliente":""}, {"Hora":"19:00","idCliente":""}]
+      },
+      {
+        "ID": 16,
+        "Nombre":"Dra. Paula Navarro",
+        "Direccion": "Calle Pedro, 2",
+        "Provincia": "Soria",
+        "Telefono": "+34 975 72 00 00",
+        "HorasDisponibles":[{"Hora":"08:00","idCliente":""}, {"Hora":"08:30","idCliente":""},  {"Hora":"09:00","idCliente":""},  {"Hora":"09:30","idCliente":""},  {"Hora":"10:00","idCliente":""}, {"Hora":"10:30","idCliente":""}, {"Hora":"11:00","idCliente":""}, {"Hora":"11:30","idCliente":""}, {"Hora":"12:00","idCliente":""}, {"Hora":"12:30","idCliente":""}, {"Hora":"13:00","idCliente":""},{"Hora":"13:30","idCliente":""}, {"Hora":"14:00","idCliente":""}, {"Hora":"16:00","idCliente":""}, {"Hora":"16:30","idCliente":""}, {"Hora":"17:00","idCliente":""}, {"Hora":"17:30","idCliente":""}, {"Hora":"18:00","idCliente":""}, {"Hora":"18:30","idCliente":""}, {"Hora":"19:00","idCliente":""}]
+      },
+      {
+        "ID": 17,
+        "Nombre":"Dr. Carmen Morales",
+        "Direccion": "Isabel la Catolica, 3",
+        "Provincia": "Valladolid",
+        "Telefono": "+34 983 42 30 70",
+        "HorasDisponibles":[{"Hora":"08:00","idCliente":""}, {"Hora":"08:30","idCliente":""},  {"Hora":"09:00","idCliente":""},  {"Hora":"09:30","idCliente":""},  {"Hora":"10:00","idCliente":""}, {"Hora":"10:30","idCliente":""}, {"Hora":"11:00","idCliente":""}, {"Hora":"11:30","idCliente":""}, {"Hora":"12:00","idCliente":""}, {"Hora":"12:30","idCliente":""}, {"Hora":"13:00","idCliente":""},{"Hora":"13:30","idCliente":""}, {"Hora":"14:00","idCliente":""}, {"Hora":"16:00","idCliente":""}, {"Hora":"16:30","idCliente":""}, {"Hora":"17:00","idCliente":""}, {"Hora":"17:30","idCliente":""}, {"Hora":"18:00","idCliente":""}, {"Hora":"18:30","idCliente":""}, {"Hora":"19:00","idCliente":""}]
+      },
+      {
+        "ID": 18,
+        "Nombre":"Dra. Beatriz Jiménez",
+        "Direccion": "Avenida pez, 85",
+        "Provincia": "Zamora",
+        "Telefono": "+34 980 25 00 00",
+        "HorasDisponibles":[{"Hora":"08:00","idCliente":""}, {"Hora":"08:30","idCliente":""},  {"Hora":"09:00","idCliente":""},  {"Hora":"09:30","idCliente":""},  {"Hora":"10:00","idCliente":""}, {"Hora":"10:30","idCliente":""}, {"Hora":"11:00","idCliente":""}, {"Hora":"11:30","idCliente":""}, {"Hora":"12:00","idCliente":""}, {"Hora":"12:30","idCliente":""}, {"Hora":"13:00","idCliente":""},{"Hora":"13:30","idCliente":""}, {"Hora":"14:00","idCliente":""}, {"Hora":"16:00","idCliente":""}, {"Hora":"16:30","idCliente":""}, {"Hora":"17:00","idCliente":""}, {"Hora":"17:30","idCliente":""}, {"Hora":"18:00","idCliente":""}, {"Hora":"18:30","idCliente":""}, {"Hora":"19:00","idCliente":""}]
+      }
+    ]
+  }
