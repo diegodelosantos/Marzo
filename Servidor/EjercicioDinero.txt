@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+Construye una app java web con patron modelo vista controlador empleando jdbc, servlets, clases y jsp. La pagina inicial tendrá un enlace para mostrar los productos vendidos a clientes por un importe total comprendido entre 2000€ y 4000€ incluidos.
+Mostrar el nº de producto, el precio actual, la descripcion de producto, el nombre de cliente y el importe total pedido. Mostrar tambien un enlace para volver al index.
+Usar tabla CLIENTES
+
+=======
+Construye una app java web con patron modelo vista controlador empleando jdbc, servlets, clases y jsp. La pagina inicial tendrá un enlace para mostrar los productos vendidos a clientes por un importe total comprendido entre 2000€ y 4000€ incluidos.
+Mostrar el nº de producto, el precio actual, la descripcion de producto, el nombre de cliente y el importe total pedido. Mostrar tambien un enlace para volver al index.
+Usar tabla CLIENTES
+
+>>>>>>> 42306c00b3e7a4ff5f3089b1decbceee3b6effd8
+Unir el nº cliente de la tabla clientes con el nº de cliente de la tabla pedidos 
