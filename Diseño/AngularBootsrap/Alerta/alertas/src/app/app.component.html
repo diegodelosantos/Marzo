@@ -1,4 +1,4 @@
-  <div class="container">
+<!-- <div class="container">
     <boot-barrademenu [opciones]="opciones" colorfondo="bg-info" (presionopcion)="presion($event)"></boot-barrademenu>
 <br>
   <boot-alerta mensaje="Recuerde que las facturas vencen el 10 de cada mes" color="alert-warning"></boot-alerta>
@@ -11,7 +11,9 @@
   <boot-alerta mensaje="Otro mensaje" color="alert-light"></boot-alerta>
   <boot-alerta mensaje="Otro mensaje" color="alert-dark"></boot-alerta>
 
-  <boot-tabla [datos]="da"></boot-tabla>
-  <boot-tarjeta [datos]="tarjeta"></boot-tarjeta>    
-</div>
-<router-outlet />
+  <boot-tabla [datos]="da"></boot-tabla>   
+</div> -->
+<boot-barrademenu [opciones]="opciones" colorfondo="bg-info" ></boot-barrademenu>
+
+  <!-- <boot-tarjeta [datos]="tarjeta"></boot-tarjeta>  -->
+<router-outlet></router-outlet>

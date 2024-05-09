@@ -16,21 +16,21 @@ import { Tarjeta } from './tarjeta';
 export class AppComponent {
   title = 'alertas';
   opciones = [
-    "Opcion 1", "Opcion 2", "Opcion 3", "Opcion 4", "Opcion 5", "Opcion 6"
+    "Alerta", "Tabla", "Tarjeta"
   ];
 
-  presion(op: number) {
-    alert("Se informa que se presiono la opcion " + op);
+  // presion(op: number) {
+  //   alert("Se informa que se presiono la opcion " + op);
   
-  };
+  // };
 
-  da: string[][] = [
-    ["Artículo", "Descripción", "Precio","Stock"],
-    ["Artículo 1", "Descripción 1", "$10.00","30"],
-    ["Artículo 2", "Descripción 2", "$20.00","33"],
-    ["Artículo 3", "Descripción 3", "$15.00","72"],
-    ["Artículo 4", "Descripción 4", "$25.00","91"],
-    ["Artículo 5", "Descripción 5", "$30.00","172"]
-  ];
-  tarjeta:Tarjeta={nombre:'Juan Pablo',mail:'juanpablo@gmail.com',foto:'https://www.scratchya.com.ar/angular/fotos/persona1.jpg'};
+  // da: string[][] = [
+  //   ["Artículo", "Descripción", "Precio","Stock"],
+  //   ["Artículo 1", "Descripción 1", "$10.00","30"],
+  //   ["Artículo 2", "Descripción 2", "$20.00","33"],
+  //   ["Artículo 3", "Descripción 3", "$15.00","72"],
+  //   ["Artículo 4", "Descripción 4", "$25.00","91"],
+  //   ["Artículo 5", "Descripción 5", "$30.00","172"]
+  // ];
+  // tarjeta:Tarjeta={nombre:'Juan Pablo',mail:'juanpablo@gmail.com',foto:'https://www.scratchya.com.ar/angular/fotos/persona1.jpg'};
 }
