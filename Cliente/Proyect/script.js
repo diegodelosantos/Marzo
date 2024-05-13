@@ -142,4 +142,6 @@ function tratarDatos(e,datos) {
 
 function MostrarHorario(NombreCentro) {
     console.log(NombreCentro)
+    window.open("http://localhost/js/Reserva.html")
 }
+
