@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { VistacardComponent } from './vistacard.component';
+import { GlobalComponent } from './global.component';
 
-describe('VistacardComponent', () => {
-  let component: VistacardComponent;
-  let fixture: ComponentFixture<VistacardComponent>;
+describe('GlobalComponent', () => {
+  let component: GlobalComponent;
+  let fixture: ComponentFixture<GlobalComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [VistacardComponent]
+      imports: [GlobalComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(VistacardComponent);
+    fixture = TestBed.createComponent(GlobalComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,29 +1,34 @@
 import { Routes } from '@angular/router';
-import { VistaformularioComponent } from './vistaformulario/vistaformulario.component';
-import { VistadashboardComponent } from './vistadashboard/vistadashboard.component';
-import { VistadragDropComponent } from './vistadrag-drop/vistadrag-drop.component';
-import { VistatableComponent } from './vistatable/vistatable.component';
-import { VistatreeComponent } from './vistatree/vistatree.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { TableComponent } from './table/table.component';
+import { TreeComponent } from './tree/tree.component';
+import { FormComponent } from './form/form.component';
+import { DragDropComponent } from './drag-drop/drag-drop.component';
+import { GlobalComponent } from './global/global.component';
 
 export const routes: Routes = [    
     {
     path: "Form",
-    component: VistaformularioComponent
+    component: FormComponent
     },
     {
     path: "Dashboard",
-    component: VistadashboardComponent
+    component: DashboardComponent
     },
     {
     path: "Drag-drop",
-    component: VistadragDropComponent
+    component: DragDropComponent
     },
     {
     path: "table",
-    component: VistatableComponent
+    component: TableComponent
     },
     {
     path: "tree",
-    component: VistatreeComponent
+    component: TreeComponent
+    },
+    {
+    path:"global",
+    component: GlobalComponent
     }
 ];

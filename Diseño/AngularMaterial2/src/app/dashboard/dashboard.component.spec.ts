@@ -1,11 +1,11 @@
 import { waitForAsync, ComponentFixture, TestBed } from '@angular/core/testing';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
-import { DaschboardComponent } from './daschboard.component';
+import { DashboardComponent } from './dashboard.component';
 
-describe('DaschboardComponent', () => {
-  let component: DaschboardComponent;
-  let fixture: ComponentFixture<DaschboardComponent>;
+describe('DashboardComponent', () => {
+  let component: DashboardComponent;
+  let fixture: ComponentFixture<DashboardComponent>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
@@ -14,7 +14,7 @@ describe('DaschboardComponent', () => {
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DaschboardComponent);
+    fixture = TestBed.createComponent(DashboardComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
