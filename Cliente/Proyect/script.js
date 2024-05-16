@@ -46,8 +46,7 @@ function imagenchiquita() {
     rightPane.style.borderRight = '1px solid #000'; // Borde para distinguir los paneles
     document.body.appendChild(rightPane);
     
-    let Fecha = document.getElementById("Fecha")
-    Fecha.removeAttribute("hidden")
+    
     // document.getElementById('leftPane').appendChild(imagen);
 }
 
@@ -124,7 +123,7 @@ function tratarDatos(e,datos) {
             celda2.append(centro.Nombre)
             let boton = document.createElement("button");
             boton.id = "boton";
-            boton.append("Mostrar horarios");
+            boton.append("Enlace a web reserva");
             boton.addEventListener("click", function () {
                 let NombreCentro=centro.Nombre
               MostrarHorario(NombreCentro)
@@ -142,6 +141,9 @@ function tratarDatos(e,datos) {
 
 function MostrarHorario(NombreCentro) {
     console.log(NombreCentro)
-    window.open("http://localhost/js/Reserva.html")
+    localStorage.setItem('Centro', NombreCentro)
+    var PCentro=localStorage.getItem('Centro')
+    console.log(PCentro)
+    // window.open("http://localhost/js/Reserva.html")
 }
 
