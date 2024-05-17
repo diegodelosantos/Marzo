@@ -142,8 +142,6 @@ function tratarDatos(e,datos) {
 function MostrarHorario(NombreCentro) {
     console.log(NombreCentro)
     localStorage.setItem('Centro', NombreCentro)
-    var PCentro=localStorage.getItem('Centro')
-    console.log(PCentro)
-    // window.open("http://localhost/js/Reserva.html")
+    window.open("http://localhost/js/Reserva.html")
 }
 
