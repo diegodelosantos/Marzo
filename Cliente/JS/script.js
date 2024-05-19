@@ -127,7 +127,7 @@ function tratarDatos(e,datos) {
             boton.addEventListener("click", function () {
                 let NombreCentro=centro.Nombre
               MostrarHorario(NombreCentro)
-              imagenchiquita()
+            //   imagenchiquita()
             });
             fila.append(celda1)
             fila.append(celda2)
