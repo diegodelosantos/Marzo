@@ -1,27 +1,4 @@
 window.onload = function () {
-    // var leftPane = document.createElement('div');
-    // leftPane.id = 'leftPane';
-    // var rightPane = document.createElement('div');
-    // rightPane.id = 'rightPane';
-
-    // // Estilos para los divs
-    // leftPane.style.width = '100%'; // El 50% del ancho de la pantalla
-    // leftPane.style.height = '100vh'; // El 100% de la altura de la ventana
-    // leftPane.style.float = 'left'; // Alinear a la izquierda
-    // leftPane.style.boxSizing = 'border-box'; // Considerar el borde y el relleno en el ancho total
-    // leftPane.style.border = '0px solid #000'; // Borde para distinguir los paneles
-
-    // rightPane.style.width = '0%'; // El 50% del ancho de la pantalla
-    // rightPane.style.height = '100vh'; // El 100% de la altura de la ventana
-    // rightPane.style.float = 'left'; // Alinear a la izquierda
-    // rightPane.style.boxSizing = 'border-box'; // Considerar el borde y el relleno en el ancho total
-    // rightPane.style.border = '0px solid #000'; // Borde para distinguir los paneles
-
-    // // Agregar los divs al cuerpo del documento
-    // document.body.appendChild(leftPane);
-    // document.body.appendChild(rightPane);
-
-    // // Llamar a las funciones
     imagen();
     conseguirDatos();
 }
