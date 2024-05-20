@@ -1,4 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+@charset "utf-8";
+
+// Importaciones de los archivos base
+@import "colores.scss";
+@import "base/fonts";
+
+// Importaciones de los archivos de utilidades
+@import "./mixins.scss";
+@import "utilities/variables";
+
+// Estilos generales
+body {
+  font-family: $font-principal;
+  color: $color-texto-principal;
+}
+
+// Utilización de un mixin
+@include respond-to('small') {
+  body {
+    font-size: 0.8em;
+  }
+}
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
