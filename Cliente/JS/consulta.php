@@ -2,30 +2,48 @@
     $Centro = $_POST['Centro'];
     $Fecha = $_POST['Fecha'];
 
-    // Conexión a la base de datos
-    $con =  mysqli_connect('localhost', 'BBDDJS','Admin', 'Toor');
+// Configuración de la base de datos
+$servername = "localhost";
+$username = "Admin";
+$password = "Toor";
+$dbname = "bbddjs";
 
-    // Verificar la conexión
-    if ($con->connect_error) {
-        die("Conexión fallida: " . $con->connect_error);
+// Crear la conexión
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Verificar la conexión
+if ($conn->connect_error) {
+    die(json_encode(array("error" => "Conexión fallida: " . $conn->connect_error)));
+}
+
+// Obtener los parámetros de la solicitud
+$centro = isset($_GET['Centro']) ? $_GET['Centro'] : '';
+$fecha = isset($_GET['Fecha']) ? $_GET['Fecha'] : '';
+
+// Crear la consulta SQL
+$sql = "SELECT IDCita, Centro, Cliente, Dia, Hora FROM '$Centro' WHERE Cliente='' and Dia='$Fecha'";
+
+if ($centro !== '') {
+    $sql .= " AND Centro = '" . $conn->real_escape_string($centro) . "'";
+}
+
+if ($fecha !== '') {
+    $sql .= " AND Dia = '" . $conn->real_escape_string($fecha) . "'";
+}
+
+$result = $conn->query($sql);
+
+$data = array();
+
+if ($result->num_rows > 0) {
+    while($row = $result->fetch_assoc()) {
+        $data[] = $row;
     }
+} else {
+    $data = array("message" => "No se encontraron registros");
+}
 
-    // Consulta SQL
-    $sql = "SELECT * FROM '$Centro' WHERE Dia = '$Fecha' and Cliente = ''";
+echo json_encode($data);
 
-    // Ejecutar la consulta
-    $result = $con->query($sql);
-
-    // Verificar si la consulta devolvió resultados
-    if ($result->num_rows > 0) {
-        // Imprimir los datos de cada fila
-        while($row = $result->fetch_assoc()) {
-            echo "IDCita: " . $row["IDCita"]. " - Centro: " . $row["Centro"]. " - Cliente: " . $row["Cliente"]. " - Dia: " . $row["Dia"]. " - Hora: " . $row["Hora"]. "<br>";
-        }
-    } else {
-        echo "0 resultados";
-    }
-
-    // Cerrar la conexión
-    $con->close();
+$conn->close();
 ?>
