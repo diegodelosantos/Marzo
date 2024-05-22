@@ -1,0 +1,7 @@
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px; // Ajusta el espacio entre las tarjetas según sea necesario
+    padding: 16px;
+  }
+  

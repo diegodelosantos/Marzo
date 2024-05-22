@@ -1,0 +1,77 @@
+<form [formGroup]="addressForm" novalidate (ngSubmit)="onSubmit()">
+  <mat-card class="shipping-card">
+    <mat-card-header>
+      <mat-card-title>Coches</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <div class="row">
+        <div class="col">
+          <mat-form-field class="full-width">
+            <input matInput placeholder="Marca favorita" formControlName="marca">
+          </mat-form-field>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <mat-form-field class="full-width">
+            <input matInput placeholder="Nombre" formControlName="nombre">
+            @if (addressForm.controls['firstName'].hasError('required')) {
+              <mat-error>First name is <strong>required</strong></mat-error>
+            }
+          </mat-form-field>
+        </div>
+        <div class="col">
+          <mat-form-field class="full-width">
+            <input matInput placeholder="Apellidos" formControlName="apellidos">
+            @if (addressForm.controls['lastName'].hasError('required')) {
+              <mat-error>Last name is <strong>required</strong></mat-error>
+            }
+          </mat-form-field>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <mat-form-field class="full-width">
+            <textarea matInput placeholder="Direccion" formControlName="direccion"></textarea>
+            @if (addressForm.controls['address'].hasError('required')) {
+              <mat-error>Address is <strong>required</strong></mat-error>
+            }
+          </mat-form-field>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <mat-form-field class="full-width">
+            <input matInput placeholder="Ciudad" formControlName="ciudad">
+            @if (addressForm.controls['city'].hasError('required')) {
+              <mat-error>City is <strong>required</strong></mat-error>
+            }
+          </mat-form-field>
+        </div>
+        <div class="col">
+          <mat-form-field class="full-width">
+            <mat-select placeholder="Pais" formControlName="pais">
+              @for (state of countries; track state) {
+                <mat-option [value]="state.abbreviation">{{ state.name }}</mat-option>
+              }
+            </mat-select>
+            @if (addressForm.controls['state'].hasError('required')) {
+              <mat-error>State is <strong>required</strong></mat-error>
+            }
+          </mat-form-field>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <mat-form-field class="full-width">
+            <input matInput #postalCode maxlength="5" placeholder="Codigo postal" type="number" formControlName="codigopostal">
+            <mat-hint align="end">{{postalCode.value.length}} / 5</mat-hint>
+          </mat-form-field>
+        </div>
+      </div>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="primary" type="submit">Enviar</button>
+    </mat-card-actions>
+  </mat-card>
+</form>
