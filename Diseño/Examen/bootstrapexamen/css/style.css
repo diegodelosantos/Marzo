@@ -9,6 +9,10 @@ footer {
   text-align: center;
 }
 
+label {
+  color: #000;
+}
+
 .album {
   margin-top: 5%;
   color: rgb(109, 172, 118);
@@ -17,6 +21,13 @@ footer {
 
 .row {
   margin-top: 5%;
+  color: rgb(109, 172, 118);
+}
+
+.row1 {
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
   color: rgb(109, 172, 118);
 }
 
@@ -39,6 +50,11 @@ body {
 
 .dropdown-toggle:not(:focus) {
   outline: 0;
+}
+
+.HeaderForm {
+  margin-top: 5%;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

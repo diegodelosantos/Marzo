@@ -22,7 +22,9 @@ footer {
     text-align: center; 
     $font-style:$font-style;
 }
-
+label{
+  color: ;
+}
 .album{
     margin-top: 5%;
     color: $terciary;
@@ -34,6 +36,12 @@ footer {
     color: $terciary;
 }
 
+.row1{
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  color: $terciary;
+}
 
 body{
     background-color: $terciary;
@@ -56,4 +64,7 @@ body{
     outline: 0;
   }
   
-
+.HeaderForm{
+  margin-top: 5%;
+  text-align: center;
+}

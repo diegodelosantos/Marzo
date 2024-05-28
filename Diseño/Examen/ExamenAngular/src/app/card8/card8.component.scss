@@ -1,0 +1,11 @@
+.small-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .example-card {
+    max-width: 300px;  // Ajusta este valor según el tamaño deseado
+    width: 100%;
+  }
+  

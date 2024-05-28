@@ -1,0 +1,45 @@
+<div class="contenedor">
+  <div class="container">
+    <h2>Despliegue</h2>
+
+    <div cdkDropList #todoList="cdkDropList" [cdkDropListData]="despliegue" [cdkDropListConnectedTo]="doneList"
+      class="list" (cdkDropListDropped)="drop($event)">
+      @for (item of despliegue; track item) {
+      <div class="list-item" cdkDrag>{{item}}</div>
+      }
+    </div>
+  </div>
+
+  <div class="container">
+    <h2>Diseño</h2>
+
+    <div cdkDropList #doneList="cdkDropList" [cdkDropListData]="disenio" [cdkDropListConnectedTo]="todoList"
+      class="list" (cdkDropListDropped)="drop($event)">
+      @for (item of disenio; track item) {
+      <div class="list-item" cdkDrag>{{item}}</div>
+      }
+    </div>
+  </div>
+
+  <div class="container">
+    <h2>Cliente</h2>
+
+    <div cdkDropList #doneList="cdkDropList" [cdkDropListData]="cliente" [cdkDropListConnectedTo]="todoList"
+      class="list" (cdkDropListDropped)="drop($event)">
+      @for (item of cliente; track item) {
+      <div class="list-item" cdkDrag>{{item}}</div>
+      }
+    </div>
+  </div>
+
+  <div class="container">
+    <h2>Servidor</h2>
+
+    <div cdkDropList #doneList="cdkDropList" [cdkDropListData]="servidor" [cdkDropListConnectedTo]="todoList"
+      class="list" (cdkDropListDropped)="drop($event)">
+      @for (item of servidor; track item) {
+      <div class="list-item" cdkDrag>{{item}}</div>
+      }
+    </div>
+  </div>
+</div>
