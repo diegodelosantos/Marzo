@@ -1,0 +1,41 @@
+.sidenav-container {
+  height: 93.5%;
+  background-color: rgb(186, 206, 240);
+}
+
+.sidenav {
+  width: 200px; 
+  background-color: rgba(124, 91, 231, 0.648); 
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4b566b;
+}
+
+.mat-toolbar-footer{
+  background-color: #4b566b;
+  width: 1655px;
+  margin-left: 195px;
+}
+
+.footer_letra{
+  color: white;
+}
+
+p{
+  padding-left: 39%;
+}

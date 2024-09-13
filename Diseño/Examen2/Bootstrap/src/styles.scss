@@ -3,35 +3,18 @@
 
 // 2. Include any default variable overrides here
 
-//personalizar alert
-// $Primay: red;
-// $secondary: black;
-// $terciary: green;
-// $danger:blue;
-//personalizar card
-$card-bg:yellow;
-$card-border-color:red;
-$card-with: "100px";
-$footer:(
-    margin=10px
-);
 
-// $cardcomponent:(
-//     display: "flex",
-//     flex-direction: row,
+$body: rgb(70, 67, 67);
+$primary: #8fafe1;
+$secondary: white;
+$terciary: rgb(19, 255, 54);
 
-// );
-
-// $theme-colors:(
-//     "primary": $Primay,
-//     "secondary": $secondary,
-//     "terciary": $terciary,
-//     "success": green,
-//     "info": blue,
-//     "warning": yellow,
-//     "danger": $danger,
-//     "light": grey,
-// );
+$button-color: $body;
+$border-color: rgb(202, 140, 140);
+$body-bg: $terciary;
+$border-radius: 5%;
+$border-radius-button: 30%;
+$boder-width: 1px;
 
 // 3. Include remainder of required Bootstrap stylesheets
 @import "../node_modules/bootstrap/scss/variables";
@@ -55,3 +38,78 @@ $footer:(
 @import "../node_modules/bootstrap/scss/card";
 
 
+.btn{
+    
+    border-color: $border-color;
+    border-radius: $border-radius-button;
+    background-color: $primary;
+    color: $button-color;
+}
+
+.btn:hover{
+    background-color: $secondary;
+    color: $terciary;
+}
+
+.btn .button-secondary{
+    border-color: $border-color;
+    border-radius: $border-radius-button;
+    background-color: $secondary;
+    color: $button-color;
+}
+
+.dropdown-item{
+    color: red;
+}
+
+.dropdown-item.active{
+    color: red;
+}
+
+.col{
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.row{
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.card{
+    max-width: 300px;
+    max-height: 400px;
+    background-color: $primary;
+}
+
+.container {
+    max-width: 760px;
+    background-color: $primary;
+  }
+
+  .btn{
+    border-color: $border-color;
+    border-radius: $border-radius-button;
+    color: $button-color;
+}
+
+.btn .button-secondary{
+    border-color: $border-color;
+    border-radius: $border-radius-button;
+    color: $button-color;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 35%;
+    min-width: 100%;
+    max-height: 100px;
+    text-align: center; 
+}
+
+body{
+    background-color: $terciary;
+}
